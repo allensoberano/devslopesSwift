@@ -39,7 +39,10 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwa-mi-bWZ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="77.5" y="0.0" width="220" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="220" id="VaR-qk-FKO"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -49,10 +52,9 @@
                             <constraint firstAttribute="trailing" secondItem="eFk-bd-TmX" secondAttribute="trailing" id="DF6-AG-NmM"/>
                             <constraint firstItem="eFk-bd-TmX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Eub-7B-xOr"/>
                             <constraint firstAttribute="trailing" secondItem="Cxx-eO-R3K" secondAttribute="trailing" id="IB0-pg-Pf5"/>
-                            <constraint firstItem="lwa-mi-bWZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Msg-oy-9Wv"/>
                             <constraint firstItem="Cxx-eO-R3K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XEx-6B-3fL"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lwa-mi-bWZ" secondAttribute="bottom" id="Yzj-C3-Qd6"/>
-                            <constraint firstAttribute="trailing" secondItem="lwa-mi-bWZ" secondAttribute="trailing" id="fYN-5s-a8r"/>
+                            <constraint firstItem="lwa-mi-bWZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fCa-qE-yzV"/>
                             <constraint firstItem="MZn-YK-ow1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="mlL-vK-MdN"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Cxx-eO-R3K" secondAttribute="bottom" id="rAg-gU-u37"/>
                             <constraint firstItem="lwa-mi-bWZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sdK-74-Uab"/>
