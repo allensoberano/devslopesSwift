@@ -38,3 +38,11 @@ print(sums)
 for number in sums {
     print("The sum is: \(number)")
 }
+
+var firstArr = ["a", "b", "c"]
+var secondArr = ["bo", "ro", "me"]
+
+var mergedArr: [String] = zip(firstArr, secondArr).flatMap{[$0, $1]}
+print(mergedArr)
+
+
